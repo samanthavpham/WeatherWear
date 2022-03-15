@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/samanthavpham/WeatherWear#readme",
   "dependencies": {
+    "axios": "^0.26.1",
+    "config": "^3.3.7",
     "cors": "^2.8.5",
     "express": "^4.17.3",
     "morgan": "^1.10.0",
