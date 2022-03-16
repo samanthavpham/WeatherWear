@@ -1,0 +1,44 @@
+[
+  {
+    "_id": 30,
+    "tops": ["heavy sweater", "heavy turtleneck", "heavy long-sleeve", "thermal top"],
+    "bottoms": ["jeans", "trousers", "thermal bottoms"],
+    "outerwear": ["winter coat", "winter hat", "scarf", "gloves", "wool socks"],
+    "footwear": ["winter boots"]
+  },
+  {
+    "_id": 40,
+    "tops": ["light sweater", "light sweatshirt"],
+    "bottoms": ["jeans", "tousers", "leggings", "skirt or dress with heavy leggings"],
+    "outerwear": ["warm hoodie", "warm jacket", "heavy cardigan"],
+    "footwear": ["sneakers", "fall boots"]
+  },
+  {
+    "_id": 50,
+    "tops": ["light long-sleeve"],
+    "bottoms": ["jeans", "tousers", "sweatpants", "leggings", "skirt or dress with leggings"],
+    "outerwear": ["vest", "waterproof jacket", "light jacket", "cardigan"],
+    "footwear": ["sneakers", "fall boots"]
+  },
+  {
+    "_id": 60,
+    "tops": ["short-sleeve"],
+    "bottoms": ["jeans", "sweatpants", "leggings", "long skirt or dress"],
+    "outerwear": ["light jacket", "pull-over or hoodie"],
+    "footwear": ["sneakers"]
+  },
+  {
+    "_id": 70,
+    "tops": ["short-sleeve", "tank top"],
+    "bottoms": ["shorts", "light material pants", "skirt or dress"],
+    "outerwear": ["light jacket for the evenings", "sun hat", "sun glasses"],
+    "footwear": ["sneakers", "sandals"]
+  },
+  {
+    "_id": 80,
+    "tops": ["airy short-sleeve", "airy tank top"],
+    "bottoms": ["shorts", "skirt or dress"],
+    "outerwear": ["light jacket for the evenings"],
+    "footwear": ["sneakers", "sandals", "sun hat", "sun glasses"]
+  }
+]
