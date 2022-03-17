@@ -7,8 +7,8 @@
   Using the input, a call will be made to the OpenWeather API, which will return the temperature. Based on the rounded temperature, a query will be made to a postgresql database which will return attire suggestions for the rounded temperature. Note: the temperatures in the database will increment 10 degrees F.
 
 ## How to Get Started ##
-(1) Obtain OpenWeather API key from https://openweathermap.org/api
-(2) Create .config file with the following info:
+* Obtain OpenWeather API key from https://openweathermap.org/api
+* Create .config file with the following info:
     const config = {
       server: {
         port: [insert port here]
@@ -18,6 +18,6 @@
       }
     };
     module.exports = config;
-(3) npm start server
-(4) npm run build
-(5) navigate to localhost:[insert port here] and enter in chosen city, state code (only applicable if country code is US), and country code.
+* npm start server
+* npm run build
+* navigate to localhost:[insert port here] and enter in chosen city, state code (only applicable if country code is US), and country code.
