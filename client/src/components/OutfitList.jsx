@@ -13,8 +13,8 @@ function OutfitList ({ outfit }) {
         Outfit Suggestions
       </Typography>
       <Box sx={{ width: '100%' }}>
-        <Grid container alignItems="stretch" justify="center" spacing={0}>
-          <Grid item component={Card} xs={{ width: "25%" }}>
+        <Grid container alignItems="stretch" justify="center" rowSpacing={0} columnSpacing={{ xs: 0, sm: 0, md: 0 }}>
+          <Grid item component={Card} xs={6}>
             <CardMedia
               component="img"
               height="140"
@@ -34,7 +34,7 @@ function OutfitList ({ outfit }) {
               </Typography>
             </CardContent>
           </Grid>
-          <Grid item component={Card} xs={{ width: "25%" }}>
+          <Grid item component={Card} xs={6}>
             <CardMedia
               component="img"
               height="140"
@@ -54,7 +54,7 @@ function OutfitList ({ outfit }) {
               </Typography>
             </CardContent>
           </Grid>
-          <Grid item component={Card} xs={{ width: "25%" }}>
+          <Grid item component={Card} xs={6}>
             <CardMedia
               component="img"
               height="140"
@@ -74,7 +74,7 @@ function OutfitList ({ outfit }) {
               </Typography>
             </CardContent>
           </Grid>
-          <Grid item component={Card} sx={{ width: "25%" }}>
+          <Grid item component={Card} xs={6}>
             <CardMedia
               component="img"
               height="140"
