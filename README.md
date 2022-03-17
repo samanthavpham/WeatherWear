@@ -9,7 +9,7 @@
 ## How to Get Started ##
 * Obtain OpenWeather API key from https://openweathermap.org/api
 * Create .config file with the following info:
-![Screenshot](assets/config_instructions.png?raw=true)
+![Screenshot](client/dist/assets/config_instructions.png?raw=true)
 * Create postgresql database with schema and data.json from repository
 * In terminal: npm start server
 * In terminal: npm run build
