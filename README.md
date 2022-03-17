@@ -18,6 +18,7 @@
       }
     };
     module.exports = config;
+* create postgresql database with schema and data.json from repository
 * npm start server
 * npm run build
 * navigate to localhost:[insert port here] and enter in chosen city, state code (only applicable if country code is US), and country code.
