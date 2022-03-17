@@ -8,16 +8,8 @@
 
 ## How to Get Started ##
 * Obtain OpenWeather API key from https://openweathermap.org/api
-* Create .config file with the following info:  
-    const config = {  
-      server: {  
-        port: [insert port here]  
-      },  
-      app: {  
-        openWeatherApiKey: [insert OpenWeather API key here]  
-      }  
-    };  
-    module.exports = config;  
+* Create .config file with the following info:
+![Screenshot](assets/config_instructions.png?raw=true)
 * Create postgresql database with schema and data.json from repository
 * In terminal: npm start server
 * In terminal: npm run build
