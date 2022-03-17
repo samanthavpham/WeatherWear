@@ -13,16 +13,16 @@ function OutfitList ({ outfit }) {
         Outfit Suggestions
       </Typography>
       <Box sx={{ width: '100%' }}>
-        <Grid container alignItems="stretch" justify="center" rowSpacing={0} columnSpacing={{ xs: 0, sm: 0, md: 0 }}>
-          <Grid item component={Card} xs={6}>
+        <Grid container alignItems="stretch" justify="center" spacing={0}>
+          <Grid item component={Card} xs={{ width: "25%" }}>
             <CardMedia
               component="img"
-              height="200"
+              height="140"
               image={outfit.tops.img}
               alt="tops img"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography gutterBottom variant="h6" component="div">
                 Tops
               </Typography>
               <Typography variant="body2" color="text.secondary" component="div">
@@ -34,15 +34,15 @@ function OutfitList ({ outfit }) {
               </Typography>
             </CardContent>
           </Grid>
-          <Grid item component={Card} xs={6}>
+          <Grid item component={Card} xs={{ width: "25%" }}>
             <CardMedia
               component="img"
-              height="200"
+              height="140"
               image={outfit.bottoms.img}
               alt="bottoms img"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography gutterBottom variant="h6" component="div">
                 Bottoms
               </Typography>
               <Typography variant="body2" color="text.secondary" component="div">
@@ -54,15 +54,15 @@ function OutfitList ({ outfit }) {
               </Typography>
             </CardContent>
           </Grid>
-          <Grid item component={Card} xs={6}s>
+          <Grid item component={Card} xs={{ width: "25%" }}>
             <CardMedia
               component="img"
-              height="200"
+              height="140"
               image={outfit.outerwear.img}
               alt="outerwear img"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography gutterBottom variant="h6" component="div">
                 Outerwear
               </Typography>
               <Typography variant="body2" color="text.secondary" component="div">
@@ -74,15 +74,15 @@ function OutfitList ({ outfit }) {
               </Typography>
             </CardContent>
           </Grid>
-          <Grid item component={Card} xs={6}s>
+          <Grid item component={Card} sx={{ width: "25%" }}>
             <CardMedia
               component="img"
-              height="200"
+              height="140"
               image={outfit.footwear.img}
               alt="footwear img"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div" component="div">
+              <Typography gutterBottom variant="h6" component="div" component="div">
                 Footwear
               </Typography>
               <Typography variant="body2" color="text.secondary" component="div">

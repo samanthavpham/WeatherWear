@@ -86,21 +86,18 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Typography gutterBottom variant="h1" component="div" id='title'>
+        <Typography gutterBottom variant="h2" component="div" id='title'>
           WeatherWear
         </Typography>
         <form onSubmit={this.handleSubmit}>
           <label className="form-label">
-            CITY
-            <input type='text' name='city' value={this.state.city} onChange={this.handleChange} />
+            CITY: <input type='text' name='city' value={this.state.city} onChange={this.handleChange} />
           </label>
           <label className="form-label">
-            STATE CODE
-            <input type='text' name='stateCode' value={this.state.stateCode} onChange={this.handleChange} placeholder="only applicable if 'Country Code' is US" />
+            STATE CODE: <input type='text' name='stateCode' value={this.state.stateCode} onChange={this.handleChange} placeholder="if applicable" />
           </label>
           <label className="form-label">
-            COUNTRY CODE
-            <input type='text' name='countryCode' value={this.state.countryCode} onChange={this.handleChange} />
+            COUNTRY CODE: <input type='text' name='countryCode' value={this.state.countryCode} onChange={this.handleChange} />
           </label>
           <Button variant="outlined" type='submit'>SUBMIT</Button>
         </form>
