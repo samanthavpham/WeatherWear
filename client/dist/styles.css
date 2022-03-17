@@ -1,0 +1,50 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  font-family: "Roboto";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px, auto;
+  background-repeat: no-repeat;
+  background: linear-gradient(#9AB9BF, #9CBABF, #B9CAC6, #CFD6CB, #EAE5D1, #FCEED5);
+  color: #415F63;
+}
+
+#title, #location, #temp, #weather, #suggestion {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+.form-label {
+  padding: 15px;
+}
+
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+  border: 1px solid #415F63 !important;
+  color: #415F63 !important;
+}
+
+.css-1vw6mcs-MuiTypography-root {
+  padding-top: 40px;
+}
+
+/* Style inputs */
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-6 {
+  background-color: rgba(255, 255, 255, 0.2);
+}

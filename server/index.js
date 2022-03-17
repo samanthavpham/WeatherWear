@@ -13,7 +13,14 @@ app.use(morgan('dev'));
 app.use(express.static('client/dist'));
 
 app.get('/api/:id', (req, res) => {
-  const id = req.params.id;
+  let id = req.params.id;
+  if (id < 30) {
+    id = 30
+  } else if (id > 80) {
+    id = 80
+  } else {
+    id = id
+  }
   Outfit.findById(id)
     .then((data) => {
       res.send(data);

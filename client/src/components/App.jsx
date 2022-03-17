@@ -2,6 +2,8 @@ import React from 'react';
 const axios = require('axios');
 const config = require('../../../config');
 import OutfitList from './OutfitList.jsx';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
 
 class App extends React.Component {
   constructor(props) {
@@ -84,26 +86,40 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>WeatherWear</h1>
+        <Typography gutterBottom variant="h1" component="div" id='title'>
+          WeatherWear
+        </Typography>
         <form onSubmit={this.handleSubmit}>
-          <label>
-            City:
+          <label className="form-label">
+            CITY
             <input type='text' name='city' value={this.state.city} onChange={this.handleChange} />
           </label>
-          <label>
-            State Code:
-            <input type='text' name='stateCode' value={this.state.stateCode} onChange={this.handleChange} />
+          <label className="form-label">
+            STATE CODE
+            <input type='text' name='stateCode' value={this.state.stateCode} onChange={this.handleChange} placeholder="only applicable if 'Country Code' is US" />
           </label>
-          <label>
-            Country Code:
+          <label className="form-label">
+            COUNTRY CODE
             <input type='text' name='countryCode' value={this.state.countryCode} onChange={this.handleChange} />
           </label>
-          <input type='submit' value='Submit' />
+          <Button variant="outlined" type='submit'>SUBMIT</Button>
         </form>
-        <h3>{`Temperature in ${this.state.location} is ${Math.round(this.state.temp)} degrees F and ${Math.round((this.state.temp - 32) * (5 / 9))} degrees C, ${this.state.weather}`}</h3>
+        <Typography gutterBottom variant="h4" component="div" id="location">
+        {`${this.state.location}`}
+        </Typography>
+        {
+        (this.state.temp !== 0)
+        ? <Typography gutterBottom variant="h3" component="div" id="temp">
+            {`${Math.round(this.state.temp)} \u00B0 F / ${Math.round((this.state.temp - 32) * (5 / 9))} \u00B0 C`}
+          </Typography>
+        : <div></div>
+        }
+        <Typography gutterBottom variant="h5" component="div" id="weather">
+        {`${this.state.weather}`}
+        </Typography>
         {
         (Object.keys(this.state.outfit).length > 0)
-        ? <OutfitList outfit={this.state.outfit} />
+        ? <OutfitList outfit={this.state.outfit} className="outfit-list"/>
         : <div></div>
         }
       </div>

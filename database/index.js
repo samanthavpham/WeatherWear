@@ -12,10 +12,22 @@ async function main() {
 
 const outfitSchema = new mongoose.Schema({
   _id: Number,
-  tops: [String],
-  bottoms: [String],
-  outerwear: [String],
-  footwear: [String]
+  tops: {
+    items: [String],
+    img: String
+  },
+  bottoms: {
+    items: [String],
+    img: String
+  },
+  outerwear: {
+    items: [String],
+    img: String
+  },
+  footwear: {
+    items: [String],
+    img: String
+  }
 });
 
 const Outfit = mongoose.model('Outfit', outfitSchema);

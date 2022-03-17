@@ -1,44 +1,116 @@
 [
   {
     "_id": 30,
-    "tops": ["heavy sweater", "heavy turtleneck", "heavy long-sleeve", "thermal top"],
-    "bottoms": ["jeans", "trousers", "thermal bottoms"],
-    "outerwear": ["winter coat", "winter hat", "scarf", "gloves", "wool socks"],
-    "footwear": ["winter boots"]
+    "tops": {
+      "items": ["heavy sweater", "heavy turtleneck", "heavy long-sleeve", "thermal top"],
+      "img": "assets/tops/sweaters.jpeg"
+    },
+    "bottoms": {
+      "items": ["jeans", "trousers", "thermal bottoms"],
+      "img": "assets/bottoms/pants.jpeg"
+    },
+    "outerwear": {
+      "items": ["winter coat", "winter hat", "scarf", "gloves", "wool socks"],
+      "img": "assets/outerwear/winter_accessories.jpeg"
+    },
+    "footwear": {
+      "items": ["winter boots"],
+      "img": "assets/footwear/winter_boots.jpeg"
+    }
   },
   {
     "_id": 40,
-    "tops": ["light sweater", "light sweatshirt"],
-    "bottoms": ["jeans", "tousers", "leggings", "skirt or dress with heavy leggings"],
-    "outerwear": ["warm hoodie", "warm jacket", "heavy cardigan"],
-    "footwear": ["sneakers", "fall boots"]
+    "tops": {
+      "items": ["light sweater", "light sweatshirt"],
+      "img": "assets/tops/longsleeve.jpeg"
+    },
+    "bottoms": {
+      "items": ["jeans", "tousers", "leggings", "skirt or dress with heavy leggings"],
+      "img": "assets/bottoms/pants.jpeg"
+    },
+    "outerwear": {
+      "items": ["warm hoodie", "warm jacket", "heavy cardigan"],
+      "img": "assets/outerwear/coat.jpeg"
+    },
+    "footwear": {
+      "items": ["sneakers", "fall boots"],
+      "img": "assets/footwear/sneakers.jpeg"
+    }
   },
   {
     "_id": 50,
-    "tops": ["light long-sleeve"],
-    "bottoms": ["jeans", "tousers", "sweatpants", "leggings", "skirt or dress with leggings"],
-    "outerwear": ["vest", "waterproof jacket", "light jacket", "cardigan"],
-    "footwear": ["sneakers", "fall boots"]
+    "tops": {
+      "items": ["light long-sleeve"],
+      "img": "assets/tops/longsleeve.jpeg"
+    },
+    "bottoms": {
+      "items": ["jeans", "tousers", "sweatpants", "leggings", "skirt or dress with leggings"],
+      "img": "assets/bottoms/pants.jpeg"
+    },
+    "outerwear": {
+      "items": ["vest", "waterproof jacket", "light jacket", "cardigan"],
+      "img": "assets/outerwear/coat.jpeg"
+    },
+    "footwear": {
+      "items": ["sneakers", "fall boots"],
+      "img": "assets/footwear/sneakers.jpeg"
+    }
   },
   {
     "_id": 60,
-    "tops": ["short-sleeve"],
-    "bottoms": ["jeans", "sweatpants", "leggings", "long skirt or dress"],
-    "outerwear": ["light jacket", "pull-over or hoodie"],
-    "footwear": ["sneakers"]
+    "tops": {
+      "items": ["short-sleeve"],
+      "img": "assets/tops/tshirt.jpeg"
+    },
+    "bottoms": {
+      "items": ["jeans", "sweatpants", "leggings", "long skirt or dress"],
+      "img": "assets/bottoms/pants.jpeg"
+    },
+    "outerwear": {
+      "items": ["light jacket", "pull-over or hoodie"],
+      "img": "assets/outerwear/jacket.jpeg"
+    },
+    "footwear": {
+      "items": ["sneakers"],
+      "img": "assets/footwear/sneakers.jpeg"
+    }
   },
   {
     "_id": 70,
-    "tops": ["short-sleeve", "tank top"],
-    "bottoms": ["shorts", "light material pants", "skirt or dress"],
-    "outerwear": ["light jacket for the evenings", "sun hat", "sun glasses"],
-    "footwear": ["sneakers", "sandals"]
+    "tops": {
+      "items": ["short-sleeve", "tank top"],
+      "img": "assets/tops/tshirt.jpeg"
+    },
+    "bottoms": {
+      "items": ["shorts", "light material pants", "skirt or dress"],
+      "img": "assets/bottoms/shorts.jpeg"
+    },
+    "outerwear": {
+      "items": ["light jacket for the evenings", "sun hat", "sun glasses"],
+      "img": "assets/outerwear/sunglasses.jpeg"
+    },
+    "footwear": {
+      "items": ["sneakers", "sandals"],
+      "img": "assets/footwear/sandals.jpeg"
+    }
   },
   {
     "_id": 80,
-    "tops": ["airy short-sleeve", "airy tank top"],
-    "bottoms": ["shorts", "skirt or dress"],
-    "outerwear": ["light jacket for the evenings"],
-    "footwear": ["sneakers", "sandals", "sun hat", "sun glasses"]
+    "tops": {
+      "items": ["airy short-sleeve", "airy tank top"],
+      "img": "assets/tops/tank_top.jpeg"
+    },
+    "bottoms": {
+      "items": ["shorts", "skirt or dress"],
+      "img": "assets/bottoms/shorts.jpeg"
+    },
+    "outerwear": {
+      "items": ["light jacket for the evenings", "sun hat", "sun glasses"],
+      "img": "assets/outerwear/sunglasses.jpeg"
+    },
+    "footwear": {
+      "items": ["sneakers", "sandals"],
+      "img": "assets/footwear/sandals.jpeg"
+    }
   }
 ]
